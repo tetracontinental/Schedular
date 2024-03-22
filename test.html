@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+        <meta charset="utf-8">
+        <meta lang="ja">
+    </head>
+    <body>
+        <h1>TEST!!!!!!!!!</h1>
+        <p>このドキュメントは<span id="important">重要</span>です。取り扱いに注意してください。</p>
+        <input id="Button1" type="button" value="button" onclick="buttonClick();"/>
+        <style>
+            .importantText{
+            font-weight:700;
+            color:#FF0000;
+        }
+        </style>
+        <script>
+            function buttonClick() {
+                target = document.getElementById("important");
+                if (target != null) {
+                    target.className = "importantText";
+                }
+            }
+        </script>
+    </body>
+</html>
