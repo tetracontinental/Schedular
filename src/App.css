@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    }
+    
+*:focus {
+  outline: none;
+}
+body {
+font-family: "roboto","helvetica";
+background-color: #eaf4fc;
+padding: 100px;
+}
+
+.login {
+margin: 20px auto;
+width: 350px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 40px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #3f3f3f;
+}
+
+button {
+  padding: 0;
+  font-family: inherit;
+  appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.buttonOutline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 320px;
+  height: 64px;
+  padding: 8px 24px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #4a7fa2;
+  text-align: center;
+  overflow-wrap: anywhere;
+  background-color: transparent;
+  border: 2px solid #4a7fa2;
+}
+
+@media (any-hover: hover) {
+  .buttonOutline {
+    transition: background-color 0.2s;
+  }
+
+  .buttonOutline:hover {
+    background-color: #d2e0ed;
+  }
+}
+
+.ErrorMessage{
+  color: #b90f0f;
+  display: none;
+}
