@@ -1,6 +1,6 @@
 # Scheduler - Enhanced Version
 
-日本語版はこちら→　[Japanese ver](https://github.com/tetracontinental/Schefular/blob/main/README-ja.md "日本語版README")
+日本語版はこちら→　[Japanese ver](https://github.com/tetracontinental/Schedular/blob/main/README-ja.md "日本語版README")
 
 This project is an enhanced version of the original Scheduler repository, created during a school research project. It integrates several advanced functionalities including Google Apps Script (GAS) integration, Optical Character Recognition (OCR) using Python, and CSV data management for web applications.
 
