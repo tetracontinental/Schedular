@@ -1,5 +1,7 @@
 # Scheduler - Enhanced Version
 
+日本語版はこちら→　[Japanese ver](https://github.com/tetracontinental/Schefular/blob/main/README-ja.md "日本語版README")
+
 This project is an enhanced version of the original Scheduler repository, created during a school research project. It integrates several advanced functionalities including Google Apps Script (GAS) integration, Optical Character Recognition (OCR) using Python, and CSV data management for web applications.
 
 ## Features
@@ -21,7 +23,7 @@ This project is an enhanced version of the original Scheduler repository, create
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/[your-username]/scheduler.git
+   git clone https://github.com/tetracontinental/scheduler.git
    cd scheduler
    ```
 
